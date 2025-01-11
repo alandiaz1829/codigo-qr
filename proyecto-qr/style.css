@@ -1,0 +1,62 @@
+
+
+
+body{
+
+    
+    height: 100vh;
+    display: flex;
+    justify-content:center ;
+    align-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #D5E1EF;
+    font-family: "Roboto", serif;
+    font-size: 15px; 
+}
+
+.tarjeta{
+    width: 320px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px 5px 0px 5px;
+    background-color: white;
+    padding-bottom: 0;
+    border-radius: 20px;
+}
+
+.tarjeta img {
+    width: 287px;
+    height: 287px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgb(54, 50, 50);
+}
+
+.content{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.content h2{
+    padding:0 14px;
+    font-weight: 700;
+    text-shadow: 0 0 2px rgb(161, 152, 152);
+    color: #19253B;
+
+}
+.content p{
+    padding: 0 27px;
+    color: #777E86;
+    line-height: 24px;
+    letter-spacing: .2px;
+   font-weight: 400;
+   text-shadow: 0 0 0.5px rgb(54, 50, 50);
+    
+}
+
