@@ -1,0 +1,90 @@
+:root {
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey700: hsl(0, 0%, 20%);
+  --Grey800: hsl(0, 0%, 12%);
+  --Grey900: hsl(0, 0%, 8%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: "Figtree", serif;
+}
+.w-1 {
+  font-weight: 400;
+}
+.w-2 {
+  font-weight: 600;
+}
+.w-3 {
+  font-weight: 900;
+}
+
+
+
+
+body{
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+align-content: center;
+background-color: var(--Grey900);
+color: var(--White);
+}
+
+
+
+.tarjeta{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  width: 385px;
+  height: 610px;
+  background-color: var(--Grey800);
+  border-radius: 15px;
+  margin-bottom: 10px;
+
+}
+img{
+  width: 90px;
+  margin: 30px auto;
+  border-radius: 50px;
+  
+}
+
+.nombre{
+margin: 0;
+}
+.adress{
+  color: var(--Green);
+font-weight: 600;
+}
+.description{
+  color: var(--White);
+  margin-bottom: 30px;
+}
+
+.btn{
+  height: 48px;
+  margin: 0 auto;
+  width: 78%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color:var(--Grey700) ;
+  color: var(--White);
+  border: none;
+  font-weight: 600;
+
+}
+.btn:hover{
+ background-color: var(--Green);
+ color: var(--Grey900);
+ transition: .5s ease-out;
+ 
+}
