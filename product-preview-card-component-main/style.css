@@ -144,6 +144,10 @@ button {
     font-size: 15px;
     font-weight: 20px;
 }
+button:hover{
+    background-color: #1A4031;
+    transition: all ease-in-out 0.5s;
+}
 
 @media (max-width:785px) {
     body{
