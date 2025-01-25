@@ -1,0 +1,177 @@
+:root {
+    /* primary */
+    --Darkcyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+
+    /* ### Neutral */
+
+    --Verydarkblue: hsl(212, 21%, 14%);
+    --Darkgrayishblue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+
+/*
+
+typografia 
+
+
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+
+    font-family: "Montserrat", serif;
+    font-weight:700;
+
+
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+*/
+
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    font-size: 14px;
+    border: none;
+    padding: none;
+    box-sizing: border-box;
+    background-color:var(--Cream);
+
+}
+
+.contain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--White);
+    width: 540px;
+    height: 406px;
+    border-radius: 10px;
+}
+
+
+.imagen {
+    background-image: url(/images/image-product-desktop.jpg);
+    width: 270px;
+    border-radius: 10px 0 0 10px;
+    height: 406px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.contenido {
+    width: 540px;
+   height: 406px;
+
+}
+
+.contenido2{
+    padding: 25px 20px;
+}
+
+h1 {
+    font-family: "Fraunces", serif;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    line-height: 30px;
+    font-size: 30px;
+
+}
+
+.text1{
+    color: var(--Darkgrayishblue);
+    font-family: "Montserrat", serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    
+
+}
+
+.text{
+    line-height: 22px;
+    color: var(--Darkgrayishblue);
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+}
+
+
+
+.precios {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-center;
+    margin-bottom: 15px;
+}
+span {
+    color: var(--Darkcyan);
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 29px;
+}
+
+.preci{
+    margin: 0;
+    font-size: 12px;
+    text-decoration: line-through;
+    color: var(--Darkgrayishblue);
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+
+
+}
+
+button {
+    background-color: var(--Darkcyan);
+    padding: 5px 9px;
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 6px;
+    color: var(--White);
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    align-content: center;
+    font-size: 15px;
+    font-weight: 20px;
+}
+
+@media (max-width:785px) {
+    body{
+        height: 70vh;
+    }
+
+   
+    .contain{
+        display: flex;
+        width: 340px;
+
+        flex-direction: column;
+    }
+    .imagen{
+        background-size: cover;
+        background-position: left;
+        width: 340px;
+        height:240px ;
+        border-radius: 15px 15px 0 0;
+    }
+    .contenido{
+        width: 340px;
+        background-color: var(--White);
+        border-radius: 0 0 15px 15px;
+        padding-top: 0;
+    }
+.contenido2{
+    padding-top: 10px;
+}
+
+}
