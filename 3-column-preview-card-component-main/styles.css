@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+--Dark-cyan: hsl(184, 100%, 22%);
+--Very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+/*
+
+
+
+.lexend-deca-<uniquifier> {
+  font-family: "Lexend Deca", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.big-shoulders-display-<uniquifier> {
+  font-family: "Big Shoulders Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
+
+
+- Mobile: 375px
+- Desktop: 1440px
+
+*/
+body{
+    height:100vh ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: white;
+
+}
+
+.contenedor{
+    height: 500px;
+    max-width: 921px;
+    display: flex;
+    flex-direction: row;
+    
+   
+    
+
+   
+  
+ 
+
+
+}
+
+.target{
+    
+    max-height: 499px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    
+   
+
+ 
+    
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 25px;
+  
+
+}
+
+.uno{
+    background-color: var(--Bright-orange);
+    border-radius: 10px 0 0 10px;
+
+}
+.dos{
+    background-color: var(--Dark-cyan);
+
+}
+.tres{
+    background-color: var(--Very-dark-cyan);
+    border-radius: 0px 10px 10px 0px;
+
+}
+.icono{
+
+}
+.icono img{
+    width: 69px;
+   
+
+
+}
+.title{
+    font-family: "Big Shoulders Display", serif;
+    font-weight: 700;
+    font-size: 21px;
+    margin-bottom: 0;
+
+}
+.titulo{
+
+}
+.descripcion{
+
+}
+.text{
+    margin-bottom: 80px;
+    line-height: 25px;
+    font-family: "Lexend Deca", serif;
+   font-weight: 400;
+    opacity: .6;
+    font-size: 15px;
+    margin-top: 0;
+
+}
+.btn{
+
+}
+.btn button{
+    font-family: "Lexend Deca", serif;
+    font-size: 15px;
+    padding: 15px 26px;
+    border-radius: 25px;
+    border: 0;
+    transition: all 0.5s ease-in-out;
+
+
+}
+
+.btn-uno{
+    color: var(--Bright-orange);
+
+}
+.btn-uno:hover{
+    background-color: var(--Bright-orange);
+    color: white;
+    border: 2px solid white;
+    margin: -2px;
+
+
+}
+
+.btn-dos{
+    color: var(--Dark-cyan);
+    
+
+}
+.btn-dos:hover{
+    background-color:var(--Dark-cyan);
+    color: white;
+    border: 2px solid white;
+    margin: -2px;
+    
+
+}
+
+.btn-tres{
+    color: var(--Very-dark-cyan);
+
+}
+.btn-tres:hover{
+    background-color:var(--Very-dark-cyan);
+    color: white;
+    border: 2px solid white;
+    margin: -2px;
+}
+
+.attribution{
+    padding-top:10px ;
+}
+
+
+
+@media only screen and (max-width:930px) and (min-width:237px) {
+    body{
+     
+        height: auto;
+    }
+    .contenedor{
+        margin-top: 20px;
+        height: auto;
+        max-width: 330px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .target{
+        
+        max-height: 499px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+ 
+    }
+    .uno{
+      
+        border-radius: 10px 10px 0 0px;
+    
+    }
+    .dos{
+      
+    
+    }
+    .tres{
+     
+        border-radius: 0px 0px 10px 10px;
+        margin-bottom: 20px;
+    
+    }
+    .text{
+margin-bottom: 30px;
+    }
+}
+
